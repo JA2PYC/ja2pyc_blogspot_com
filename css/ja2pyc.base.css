@@ -1,0 +1,29 @@
+/* JA2PYC Base CSS */
+/* table */
+table.ja2pyc {
+    width: 100%;
+    text-align: center;
+    border-collapse: collapse;
+}
+
+/* table thead */
+table.ja2pyc thead tr {
+    background-color: #a0a0a0a0;
+}
+
+table.ja2pyc thead tr th {
+    padding: 1rem 0;
+}
+
+/* table tbody */
+table.ja2pyc tbody tr:nth-child(odd) {
+    background-color: #40404040;
+}
+
+table.ja2pyc tbody tr:nth-child(even) {
+    background-color: #50505050;
+}
+
+table.ja2pyc tbody tr td {
+    padding: 0.5rem 0;
+}
