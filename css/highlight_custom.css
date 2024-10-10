@@ -1,4 +1,7 @@
 /* Hljs Custom CSS */
+.ja2pyc-hljs {
+    margin: 1rem 0;
+}
 
 /* Hljs Header */
 .ja2pyc-hljs .hljs-header {
@@ -6,20 +9,27 @@
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    height: 2rem;
+    background-color: #0d1117;
+    box-sizing: border-box;
+    padding: 1rem;
 }
 
 .ja2pyc-hljs .header-language {
-    background-color: #303030;
+    /* background-color: #303030; */
 }
 
 .ja2pyc-hljs .header-button {
-    background-color: #303030;
+    cursor: pointer;
 }
 
 .ja2pyc-hljs .button-copy {
     width: auto;
     height: 1rem;
+}
+
+/* Hljs pre */
+.ja2pyc-hljs pre {
+    margin-top: 0;
 }
 
 /* Hljs Table */

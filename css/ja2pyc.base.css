@@ -7,8 +7,8 @@ table.ja2pyc {
 }
 
 /* table thead */
-table.ja2pyc thead tr {
-    background-color: #a0a0a0a0;
+table.ja2pyc thead {
+    background-color: #202020;
 }
 
 table.ja2pyc thead tr th {
@@ -17,11 +17,11 @@ table.ja2pyc thead tr th {
 
 /* table tbody */
 table.ja2pyc tbody tr:nth-child(odd) {
-    background-color: #40404040;
+    background-color: #303030;
 }
 
 table.ja2pyc tbody tr:nth-child(even) {
-    background-color: #50505050;
+    background-color: #404040;
 }
 
 table.ja2pyc tbody tr td {
